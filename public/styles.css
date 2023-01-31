@@ -31,7 +31,11 @@ input{
     border:none;
     border-bottom: 5px solid #fff;
     text-align: center;
+    color:#fff
 }
+input:focus{
+    outline: #fff;
+    }
 .btn{
     background-color: rgb(209, 59, 59);
     margin-top:5%;
