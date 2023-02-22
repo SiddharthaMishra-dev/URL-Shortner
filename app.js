@@ -28,7 +28,6 @@ app.post("/",function(req,res){
         shortened=`gotiny.cc/${await result[0].code}`
         res.redirect("/")
     }
-    var link=req.body.url
     requestURL()
 
 
